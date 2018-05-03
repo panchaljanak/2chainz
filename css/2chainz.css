@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+}
+
+.part1{
+    height: 690px;
+}
+.navbar {
+    background: rgba(0,0,0,0.3);
+    height: 90px;
+    border: 1px solid black;
+   
+}
+.navbar1 ul>li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.navbar1 ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+.navbar1 ul>li>a:hover {
+    color: rgb(90, 76, 141);
+    
+}
+.navbar1{
+    float: left;
+}
+.navbar2{
+    display:inline-block;
+    align-items: center;
+    margin-left: 300px; 
+    color:white;    
+}
+.navbar2 h2>a {
+    color: white;
+    text-decoration: none;
+}
+.navbar2 h2>a:hover {
+    color: rgb(68, 58, 121);
+    
+}
+.navbar3{
+    display: inline-block;
+    margin-left: 300px;
+    color:white;
+}
+.navbar3 ul>a {
+    margin-left: 20px;
+    color:white;
+}
+.navbar3 ul>a:hover {
+    margin-left: 20px;
+    color:rgb(100, 70, 148);
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    z-index: -1;
+}
+
+.watch {
+
+    margin-top: 450px;
+    margin-left: 700px;
+    color: white;
+    z-index: 1;
+}
+
+button{
+    padding: 10px;
+    background: #ecbad3;
+    margin-left: 40px;
+    transition: 0.4s;
+    border-color: #ecbad3;
+}
+button:hover {
+    background: black;
+    color:white;
+    border-color: black;
+}
+
+.part2{
+    background: #ecbad3;
+    
+} 
+.album1{
+    margin-top: 75px;
+    display: inline-block;
+    margin-left: 300px;
+}
+.album2{
+    margin-top: 75px;
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+.itunes{
+    border: 2px solid black;
+    color:black;
+    padding: 8px;
+    border-radius: 4px;
+    transition: 0.5s;
+    
+}
+.itunes:hover{
+   background: black;
+   color: white;
+}
+
+.album3{
+    margin-top: 65px;
+    display: inline-block;
+    margin-left: 300px;
+}
+.album4{
+    margin-top: 65px;
+    display: inline-block;
+    margin-left: 300px;
+}
+.music {
+    color:#9f5e83;
+    letter-spacing: 0.7em;
+    padding: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.part3{
+    background: #ecbad3;
+}
+.video2 {
+    color:#9f5e83;
+    letter-spacing: 0.7em;
+    padding: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.video1{
+    margin-left: 300px;
+}
+.part4{
+    background: #ecbad3;
+}
+.news {
+    color: #9f5e83;
+    text-align: center;
+    letter-spacing: 0.7em;
+    padding: 40px;
+    font-weight: bold;
+}
+.newsletter{
+    margin-left: 480px;
+    
+}
+.condition{
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+
+.subscribe{
+    color:black;
+    border:solid black;
+}
+.subscribebtn{
+    color: #9f5e83;
+    background: black;
+    transition: 0.4s;
+    padding: 8px;
+}
+.subscribebtn:hover{
+    color: black;
+    transition: 0.4s;
+    background: #9f5e83;
+}
+
